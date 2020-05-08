@@ -1,0 +1,147 @@
+header{
+    background-color: #327ABD;
+    color: #ffffff;
+    font-style: bold;
+    }
+
+.nav-left,
+.nav-center,
+.nav-right
+    {
+    display: inline-block;
+    padding: 80px;
+    }
+
+.nav-left>li{
+    display: inline-block;
+   
+}
+
+.nav-center{
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav-right { 
+    /*float: right*/
+    text-align: right;
+}
+
+.nav-bar>li{
+    display: inline-block;
+    background-color: blue;
+    text-align: center;
+  padding: 14px 100px;
+}
+
+.nav-bar>li>a{
+   
+    color: white;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+}
+
+button
+{
+    padding: 5px 20px 5px 20px;
+    color: white;
+    background-color: #4385c1;
+    border-radius: .1cm;
+    border-width: .3mm;
+    border-color: white;
+}
+
+.full-size{
+   width: 99%;
+   background-color: purple;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    /*padding-top: 15px;*/
+    object-fit: cover;
+    
+    /*opacity: 0.3;*/
+}
+.text{
+    
+    color: white;
+    width: 68%;
+    position: absolute;
+    top: 542px;
+    text-align: center;
+  
+    
+   
+
+}
+
+
+
+.dev1{
+    background-color: rgb(181, 208, 239);
+   
+    
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    display: flex;
+}
+#new-div{
+    background-color:purple; 
+    width:216px; 
+    padding:18px; 
+    height:169px; 
+    border: 0px white; 
+    margin-top: 1em; 
+    color: white;
+}
+#div{
+    background-color:#2196F3; 
+    width:216px; 
+    height:169px; 
+    padding:18px; 
+    border: 0px white; 
+    margin-top: 1em; 
+    color: white;
+}
+#dee{
+    background-color:#7aa120;
+}
+.new{
+    display: flex;
+}
+.h6{
+    color: rgb(14, 83, 41);
+}
+.h4{
+    color: blue;
+}
+.h3{
+    color: grey;
+}
+
+
+section{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  /*padding-top: 15px;*/
+}
+footer{
+    background-color: #000000ba;
+    color: whitesmoke;
+    padding: 120px ;
+    padding-top: 4px;
+    
+}
+footer>ul>li{
+    list-style-type: none;
+    color: gray;
+    }
